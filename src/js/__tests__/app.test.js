@@ -2,7 +2,7 @@ import Validator from '../app';
 
 const dataList = [
   ['Иван', false],
-  ['Ivan123V', true],
+  ['Ivan-_123V', true],
   ['Ivan123', false],
   ['123Ivan', false],
   ['Ivan12345V', false],
